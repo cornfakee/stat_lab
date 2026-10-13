@@ -1,0 +1,5 @@
+Ein/e NANUAG-Mitarbeiter/in nimmt an 18 aufeinanderfolgenden Ziehungen der Firmenlotterie "NANU-Glück" teil. Bei jeder Ziehung kreuzt er/sie in seinem/ihrem Tippfeld 5 Zahlen an (Regeln wie in Teil 3 a)/b) beschrieben, Einsatz jeweils 2 €). Ein Teilnahme gilt als "Treffer", wenn bei dieser Ziehung ein Gewinn (Auszahlung > 0 €) erzielt wird.
+
+Berechnen Sie die Wahrscheinlichkeit, dass der/die Mitarbeiter/in bei den 18 Ziehungen mindestens 2-mal einen Treffer erzielt.
+
+Welche Verteilung/Funktion verwenden Sie hier? Welche Werte setzen Sie für die Parameter ein? (Hinweis: Sie benötigen dafür die Trefferwahrscheinlichkeit p aus Aufgabenteil a)/b) für 5 angekreuzte Zahlen.)

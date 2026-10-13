@@ -1,0 +1,34 @@
+Teilergebnisse NANUAG-Gesamtprojekt - Gruppe 04 - Version 01
+(Nur Kontrollwerte zur Selbstueberpruefung, kein vollstaendiger Loesungsweg!)
+
+--- Teil 1: Mitarbeiterdaten ---
+Durchschnittsalter (nach Bereinigung), erste 2 Nachkommastellen: xx,97
+Anzahl bereinigter (verbleibender) Datensaetze: 98287
+Pearson-Korrelation Alter/Jahresgehalt, erste 2 Nachkommastellen: 0,61...
+
+--- Teil 2: Umsatzentwicklung ---
+Bestimmtheitsmass Polynom 4. Grades (Kontrollwert, nicht zwingend beste Kurve), erste 2 Nachkommastellen: 0,99...
+
+--- Teil 3: NANU-Glueck Lotterie ---
+Erwartungswert/Standardabweichung X10 (Kontrolle): E = -1.01 EUR, SD = 136.88 EUR
+Kombinationsspiel X10 + X2 gleichzeitig (Teil 3e, Unabhaengigkeit vorausgesetzt):
+  E[X10+X2] = -2.07 EUR, SD[X10+X2] = 136.92 EUR
+Individuelle Aufgabe (m=5, n=18, mindestens 2-mal):
+  Trefferwahrscheinlichkeit je Ziehung p, erste 2 Nachkommastellen: 0,13...
+  Gesuchte Wahrscheinlichkeit, erste 2 Nachkommastellen: 0,72...
+
+--- Teil 4: Qualitaetskontrolle (Normalverteilung) ---
+MR1: NICHT normalverteilt (bimodal)
+MR2: normalverteilt, mu rundet auf 892.0, sigma rundet auf 1.9
+MR3: normalverteilt, mu rundet auf 74.3, sigma rundet auf 0.39
+
+--- Teil 5: Statistische Tests (alpha=0,05; Bonferroni-korrigiert: alpha'=0,0125) ---
+a) Gauss-Test MR2 gegen Sollmass mu0=883.0 (bekannt: sigma0=1.8):
+   z = 1581.15, p-Wert Groessenordnung: < 0,001  -> H0 verworfen (unkorrigiert)
+b) Zweistichproben-t-Test Gehalt Maenner vs. Frauen: t = 76.97, p-Wert Groessenordnung: < 0,001
+   Beobachteter Gehaltsunterschied (grobe Groessenordnung): 9% (+/- 1 Prozentpunkt)
+c) Binomialtest Frauenanteil Fuehrungspositionen (H0: p=0,30, einseitig 'kleiner'):
+   beobachteter Anteil, erste 2 Nachkommastellen: 0,30...
+   p-Wert Groessenordnung: 0.9706
+d) Chi-Quadrat-Unabhaengigkeitstest Anrede x Abteilung: chi2 = 2216.0, df = 14, p-Wert Groessenordnung: < 0,001
+e) Bonferroni: alpha' = 0,05/4 = 0,0125 - pruefen Sie fuer jeden Test aus a)-d), ob sich die Entscheidung dadurch aendert.
